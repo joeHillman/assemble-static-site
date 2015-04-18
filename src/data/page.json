@@ -1,0 +1,29 @@
+{
+  "titleFor": {
+    "homepage": "Little Red Plane Design",
+    "about": "About Little Red Plane Design",
+    "contact": "Contact Little Red Plane Design",
+    "homeMedia": "Portfolio Details",
+    "homeMediaContact": "Contact Page - Home Media Magazine",
+    "homeMediaDetails": "Article Page - Home Media Magazine",
+    "homeMediaHomepage": "Homepage - Home Media Magazine",
+    "ibsEnews": "In the Know eBlast - International Beauty Show",
+    "itexHomepage": "Homepage - Itex Show",
+    "itexInteractionDetails": "Interaction Details - Itex Show",
+    "itexShowFooter": "Footer Details - Itex Show",
+    "imageSource": "Homepage - Image Source",
+    "portablePlants": "Homepage - Portable Plants &amp; Equipment",
+    "responseExpo": "Homepage - Response Expo",
+    "travelSeries": "Homepage - Incentive Travel Series",
+    "amsalonAdaptive": "American Salon Prototype",
+    "scroller": "Image Scroller - Basic Style",
+    "scrollerHover": "Image Scroller - With Hover",
+    "scrollerHoverClick": "Image Scroller - With Click Thru",
+    "scrollerHoverConfig": "Image Scroller - With Hover"
+  },
+  "specificsFor": {
+    "homepage": {
+      "usingMobilySlider": true
+    }
+  }
+}

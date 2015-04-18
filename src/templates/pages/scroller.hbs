@@ -1,0 +1,40 @@
+---
+layout: threeColumn.hbs
+title: <%= page.titleFor.scroller%>
+pageClasses: images details standard wide short-content
+scrollerScript: <%= scroll.use.basic.src%>
+configurable: <%= scroll.use.basic.configurable%>
+---
+        <div class="wrap-container-top pc-display">
+            <div class="wrap-title">
+                <h1>jQuery Image Scrollers</h1>
+                <p>jQuery, Javascript, HTML, CSS, UX/UI, Agile Method</p>
+            </div>
+            <ul class="nav-portfolio portfolio-page">
+                <li class="portfolio-item prev"><a href="itex-homepage.html" target="_self" title="Previous Project" tabindex="3">Previous</a></li>
+                <li class="portfolio-item next"><a href="response-expo.html" target="_self" title="Next Project" tabindex="3">Next</a></li>
+                <li class="wrap-sub-nav">
+                    <ul class="portfolio-pages">
+                        <li class="page-item first"><a href="scroller.html" target="_self" title="Basic Scroller" tabindex="4" class="link-disable">Basic Scroller</a></li>
+                        <li class="page-item"><a tabindex="4" title="Scroller with Hover Stop" target="_self" href="scroller-hover.html">Scroller with Hover Stop</a></li>
+                        <li class="page-item"><a href="https://github.com/granularsound/image-rotators" target="_blank" tabindex="4" title="Githib Project Page">View on Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="wrap-comp">
+            <div class="w-slideshow">
+                <div class="w-multi">
+                    <ul class="w-slides">
+                        <li class="first"><img src="images/scroller-images/xmen-1.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-2.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-3.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-4.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-5.jpg" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-copy">
+            <p>I created this basic image scroller from scratch without the assistance of tutorials. I built this image scroller to assess the width of its content and structure the container accordingly. <br/><br/>This scroller runs continuously and requires that the artwork be placed on a consistently sized matte, and that the images to be marked up as list items.<br/><br/>The javascript file driving this animation includes configurable variables that assign the right hand margin, image width, and the animation speed. This is a basic functional model that I extended to include a hover and stop effect to accomodate linked images.<br/><br/>Github files are self contained in a single HTML file per project.</p>
+        </div>

@@ -1,0 +1,27 @@
+{
+  "_comment": "The basic and hover styles have the speed and id's inside the JS files.",
+  "use": {
+    "basic": {
+      "src": "scroller-basic.js",
+      "configurable": false
+    },
+    "hover": {
+      "src": "scroller-hover.js",
+      "configurable": false
+    },
+    "click": {
+      "src": "core-sponsor-rotator-mul-config-back-for.js",
+      "id": "#sponsorScrollerOne",
+      "speed": 6000,
+      "style": "clickThruImg",
+      "configurable": true
+    },
+    "config": {
+      "src": "sponsor-rotator-multiples-production-config.js",
+      "id": "#sponsorScrollerOne",
+      "speed": 6000,
+      "style": "",
+      "configurable": true
+    }
+  }
+}

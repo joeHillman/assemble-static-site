@@ -1,0 +1,50 @@
+---
+layout: threeColumn.hbs
+title: <%= page.titleFor.scrollerHoverClick%>
+pageClasses: images details standard wide short-content
+scrollerScript: <%= scroll.use.click.src%>
+id: <%= scroll.use.click.id%>
+speed: <%= scroll.use.click.speed%>
+style: <%= scroll.use.click.style%>
+configurable: <%= scroll.use.click.configurable%>
+---
+        <div class="wrap-container-top pc-display">
+            <div class="wrap-title">
+                <h1>jQuery Image Scrollers</h1>
+                <p>jQuery, Javascript, HTML, CSS, UX/UI, Agile Method</p>
+            </div>
+            <ul class="nav-portfolio portfolio-page">
+                <li class="portfolio-item prev"><a href="itex-homepage.html" target="_self" title="Previous Project" tabindex="3">Previous</a></li>
+                <li class="portfolio-item next"><a href="response-expo.html" target="_self" title="Next Project" tabindex="3">Next</a></li>
+                <li class="wrap-sub-nav">
+                    <ul class="portfolio-pages">
+                        <li class="page-item first"><a href="scroller.html" target="_self" title="Basic Scroller" tabindex="4">Basic Scroller</a></li>
+                        <li class="page-item"><a tabindex="4" title="Scroller with Hover Stop" target="_self" href="scroller-hover.html">Scroller with Hover Stop</a></li>
+                        <li class="page-item"><a tabindex="4" title="Scroller with Hover Stop" target="_self" href="scroller-hover-config.html">Scroller with Hover and Config</a></li>
+                        <li class="page-item"><a tabindex="4" title="Scroller with Hover Stop" target="_self" href="scroller-hover-click.html" class="link-disable">Scroller with Click Thru</a></li>
+                        <li class="page-item"><a href="https://github.com/granularsound/image-rotators" target="_blank" tabindex="4" title="Githib Project Page">View on Github</a></li>
+                        <!--<li class="page-item"><a tabindex="4" title="Itex Show Chunky Footer" target="_self" href="itex-show-footer.html">Chunky Footer</a></li>-->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="wrap-comp">
+            <div class="w-slideshow js-disabled" id="sponsorScrollerOne">
+                <div class="w-multi">
+                    <ul class="w-slides">
+                        <li class="first"><img src="images/scroller-images/xmen-1.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-2.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-3.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-4.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-5.jpg" /></li>
+                    </ul>
+                </div>
+                <div class="controls">
+                    <a href="#" title="Previous" class="back">Previous</a>
+                    <a href="#" title="Next" class="next">Next</a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-copy">
+            <p>This image scroller used the hover and stop with config scroller as the model. I added a click thru style option. This option is for a user initiated slideshow and does not feature an autoplay option. It's built as a secondary rotator, for a site that might already have an autoscrolling main rotator. An autoplay feature wasn't added to this option to reduce the motion on the page. We hard coded the controls, as we are bound by jQuery 1.2 in my current job, though are removed if not needed. Upon upgrading to 1.4, the live method could then be used in tandem with dynamically created controls.<br/><br/>The next update will include a hover and reverse to last slide effect. <br/><br/>Github files are self contained in a single HTML file per project.</p>
+        </div>

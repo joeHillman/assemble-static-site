@@ -1,0 +1,15 @@
+{
+  "name": "assembleSandbox",
+  "version": "0.0.0",
+  "description": "Sandbox",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Hillman",
+  "license": "ISC",
+  "devDependencies": {
+    "assemble": "~0.4.42",
+    "grunt": "~0.4.5"
+  }
+}

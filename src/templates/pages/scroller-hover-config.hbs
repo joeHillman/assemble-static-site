@@ -1,0 +1,46 @@
+---
+layout: threeColumn.hbs
+title: <%= page.titleFor.scrollerHoverConfig%>
+pageClasses: images details standard wide short-content
+scrollerScript: <%= scroll.use.config.src%>
+id: <%= scroll.use.config.id%>
+speed: <%= scroll.use.config.speed%>
+style: <%= scroll.use.config.style%>
+configurable: <%= scroll.use.config.configurable%>
+---
+        <div class="wrap-container-top pc-display">
+            <div class="wrap-title">
+                <h1>jQuery Image Scrollers</h1>
+                <p>jQuery, Javascript, HTML, CSS, UX/UI, Agile Method</p>
+            </div>
+            <ul class="nav-portfolio portfolio-page">
+                <li class="portfolio-item prev"><a href="itex-homepage.html" target="_self" title="Previous Project" tabindex="3">Previous</a></li>
+                <li class="portfolio-item next"><a href="response-expo.html" target="_self" title="Next Project" tabindex="3">Next</a></li>
+                <li class="wrap-sub-nav">
+                    <ul class="portfolio-pages">
+                        <li class="page-item first"><a href="scroller.html" target="_self" title="Basic Scroller" tabindex="4">Basic Scroller</a></li>
+                        <li class="page-item"><a tabindex="4" title="Scroller with Hover Stop" target="_self" href="scroller-hover.html">Scroller with Hover Stop</a></li>
+                        <li class="page-item"><a tabindex="4" title="Scroller with Hover Stop" target="_self" href="scroller-hover-config.html" class="link-disable">Scroller with Hover and Config</a></li>
+                        <li class="page-item"><a tabindex="4" title="Scroller with Hover Stop" target="_self" href="scroller-hover-click.html">Scroller with Click Thru</a></li>
+                        <li class="page-item"><a href="https://github.com/granularsound/image-rotators" target="_blank" tabindex="4" title="Githib Project Page">View on Github</a></li>
+                        <!--<li class="page-item"><a tabindex="4" title="Itex Show Chunky Footer" target="_self" href="itex-show-footer.html">Chunky Footer</a></li>-->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="wrap-comp">
+            <div class="w-slideshow js-disabled" id="sponsorScrollerOne">
+                <div class="w-multi">
+                    <ul class="w-slides">
+                        <li class="first"><img src="images/scroller-images/xmen-1.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-2.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-3.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-4.jpg" /></li>
+                        <li><img src="images/scroller-images/xmen-5.jpg" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-copy">
+            <p>This image scroller used the hover and stop scroller as the model. I added a configurable section to allow for a change of predetermined image width, speed change, margin adjustments, and a power switch in the event of a single image scroller that has more content to be added later.<br/><br/>The next update will include a click thru option with autoplay disabled to be used as a secondary rotator.<br/><br/>Github files are self contained in a single HTML file per project.</p>
+        </div>
